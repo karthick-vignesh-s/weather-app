@@ -1,0 +1,24 @@
+$dark-blue: #2F3148;
+$pale-blue: #8689AC;
+$midnight-blue: #3F5576;
+
+$primary-color: $dark-blue;
+$primary-contrast: white;
+$secondary-color: $pale-blue;
+$background-color: $midnight-blue;
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.icon-button {
+  background: transparent;
+  border: none;
+  text-align: center;
+  margin-left: 15px;
+  font-size: 1rem;
+}
+
+.spinner {
+  color: $primary-contrast;
+}

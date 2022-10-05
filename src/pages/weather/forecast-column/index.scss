@@ -1,0 +1,25 @@
+@import "../../../common/styles/weathericons.css";
+@import "../../../common/styles/globals";
+
+.ForecastColumn {
+  flex-grow: 1;
+
+  & > div {
+    margin-top: 2rem;
+  }
+
+  .section {
+    background: $primary-color;
+    width: 100%;
+    padding: 0.5rem;
+    color: $primary-contrast;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .date {
+    margin-top: 5px;
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+}

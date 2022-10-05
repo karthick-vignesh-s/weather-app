@@ -1,0 +1,18 @@
+@import "../../../common/styles/globals";
+@import "../../../common/styles/weathericons.css";
+
+.WeatherDetails {
+  text-align: center;
+  color: white;
+
+  .temperature {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  .description {
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+}

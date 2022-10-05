@@ -1,0 +1,13 @@
+@import "../../../common/styles/weathericons.css";
+
+.WeatherForecastDetails {
+  margin-top: 2rem;
+  text-align: center;
+  color: white;
+
+  .columns {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+  }
+}

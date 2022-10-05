@@ -1,0 +1,7 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./src/common/styles/globals";
+@import '~antd/dist/antd.css';
+
+body {
+  background-color: $background-color;
+}
